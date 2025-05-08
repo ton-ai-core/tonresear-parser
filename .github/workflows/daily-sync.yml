@@ -1,0 +1,43 @@
+name: Daily TON Research Sync
+
+on:
+  schedule:
+    # Runs every day at 3:00 UTC
+    - cron: '0 3 * * *'
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x' # Use the Node.js version compatible with your project
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run parser
+        run: npm start
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'GitHub Action Bot'
+          git config --global user.email 'action-bot@github.com'
+
+      - name: Check for changes in data directory
+        id: check_changes
+        run: |
+          git status --porcelain data/ | grep . && echo "changed=true" >> $GITHUB_OUTPUT || echo "changed=false" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git add data/progress.json data/latest_topics_metadata.json data/topic_pages_md/
+          git commit -m "Data sync: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git push origin main 
