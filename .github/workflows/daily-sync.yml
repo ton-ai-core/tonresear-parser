@@ -38,6 +38,6 @@ jobs:
       - name: Commit and push changes
         if: steps.check_changes.outputs.changed == 'true'
         run: |
-          git add data/progress.json data/latest_topics_metadata.json data/topic_pages_md/
+          git add .
           git commit -m "Data sync: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           git push origin main 
