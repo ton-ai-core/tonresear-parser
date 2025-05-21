@@ -17,9 +17,11 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const PROGRESS_FILE_PATH = path.join(DATA_DIR, 'progress.json');
 const TOPICS_METADATA_FILE_PATH = path.join(DATA_DIR, 'latest_topics_metadata.json');
 const TOPIC_PAGES_MD_DIR = path.join(DATA_DIR, 'topic_pages_md'); // Changed directory name
+const CHUNKED_MD_DIR = path.join(DATA_DIR, 'markdown'); // Директория для чанкированных markdown-файлов
 const REQUEST_DELAY_MS = 250; // Delay between API requests
 const HTML_DOWNLOAD_DELAY_MS = 500; // Delay between HTML downloads
 const METADATA_SAVE_INTERVAL = 50; // Save metadata every 50 HTML processing attempts
+const CHUNK_SIZE_KB = 950; // Target size for markdown chunks in KB
 
 // Initialize Turndown service
 const turndownService = new TurndownService({
@@ -350,6 +352,89 @@ async function processTopicsForMarkdown(
   console.log(`\n--- Finished Phase 2 attempt. Processed ${processedCount} total topics. Attempted ${attemptedInThisRun} downloads/conversions in this run. ---`);
 }
 
+// Function to generate chunked markdown files
+async function generateChunkedMarkdownFiles(): Promise<void> {
+  console.log('\n--- Starting Phase 3: Generating chunked markdown files ---');
+  
+  // Ensure the chunked markdown directory exists
+  await fs.ensureDir(CHUNKED_MD_DIR);
+  
+  // Check if the topic_pages_md directory exists and has files
+  if (!(await fs.pathExists(TOPIC_PAGES_MD_DIR))) {
+    console.warn(`Topic pages directory ${TOPIC_PAGES_MD_DIR} does not exist. Skipping chunking.`);
+    return;
+  }
+  
+  // Get all markdown files
+  const mdFiles = await fs.readdir(TOPIC_PAGES_MD_DIR);
+  const markdownFiles = mdFiles.filter(file => file.endsWith('.md'));
+  
+  if (markdownFiles.length === 0) {
+    console.warn('No markdown files found to chunk. Skipping chunking phase.');
+    return;
+  }
+  
+  console.log(`Found ${markdownFiles.length} markdown files to process.`);
+  
+  // Read all markdown files and concatenate their content
+  let allContent = '';
+  for (const file of markdownFiles) {
+    const filePath = path.join(TOPIC_PAGES_MD_DIR, file);
+    const content = await fs.readFile(filePath, 'utf-8');
+    // Add file header to identify the source in chunked files
+    allContent += `\n\n## Topic: ${path.basename(file, '.md')}\n\n${content}\n\n`;
+  }
+  
+  // Calculate total size and prepare for chunking
+  const contentSizeKB = Buffer.byteLength(allContent, 'utf-8') / 1024;
+  const estimatedChunks = Math.ceil(contentSizeKB / CHUNK_SIZE_KB);
+  
+  console.log(`Total content size: ${contentSizeKB.toFixed(2)} KB`);
+  console.log(`Estimated number of chunks needed: ${estimatedChunks}`);
+  
+  // Create chunks
+  const chunkSizeBytes = CHUNK_SIZE_KB * 1024;
+  let currentChunk = '';
+  let currentChunkSize = 0;
+  let chunkIndex = 1;
+  
+  // Split by paragraphs to avoid breaking in the middle of text
+  const paragraphs = allContent.split('\n\n');
+  
+  for (const paragraph of paragraphs) {
+    const paragraphSize = Buffer.byteLength(paragraph + '\n\n', 'utf-8');
+    
+    // If adding this paragraph would exceed the chunk size, save current chunk and start a new one
+    if (currentChunkSize + paragraphSize > chunkSizeBytes && currentChunkSize > 0) {
+      await fs.writeFile(
+        path.join(CHUNKED_MD_DIR, `tonresear_part${chunkIndex}.md`),
+        currentChunk
+      );
+      console.log(`Created chunk ${chunkIndex} with size ${(currentChunkSize / 1024).toFixed(2)} KB`);
+      
+      // Reset for next chunk
+      currentChunk = '';
+      currentChunkSize = 0;
+      chunkIndex++;
+    }
+    
+    // Add paragraph to current chunk
+    currentChunk += paragraph + '\n\n';
+    currentChunkSize += paragraphSize;
+  }
+  
+  // Save the last chunk if it has content
+  if (currentChunkSize > 0) {
+    await fs.writeFile(
+      path.join(CHUNKED_MD_DIR, `tonresear_part${chunkIndex}.md`),
+      currentChunk
+    );
+    console.log(`Created chunk ${chunkIndex} with size ${(currentChunkSize / 1024).toFixed(2)} KB`);
+  }
+  
+  console.log(`\n--- Finished Phase 3: Created ${chunkIndex} markdown chunks in ${CHUNKED_MD_DIR} ---`);
+}
+
 // --- Main Execution Logic ---
 async function main() {
   console.log('Script started.');
@@ -407,6 +492,9 @@ async function main() {
 
   // --- Phase 2: Convert HTML to Markdown for ALL known topics ---
   await processTopicsForMarkdown(allMetadata, currentProgress);
+
+  // --- Phase 3: Generate chunked markdown files ---
+  await generateChunkedMarkdownFiles();
 
   // --- Save final state ---
   await saveTopicsMetadata(allMetadata);
