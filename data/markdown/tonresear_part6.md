@@ -688,6 +688,34 @@ Powered by [Discourse](https://www.discourse.org), best viewed with JavaScript e
 
 
 
+## Topic: 41576
+
+[TON Research](/)
+
+# [$Telegrok The new Leading Meme on Ton](/t/telegrok-the-new-leading-meme-on-ton/41576)
+
+[General](/c/general/4) 
+
+    
+
+[Seal](https://tonresear.ch/u/Seal)  May 29, 2025, 8:05pm  1
+
+TeleGrok is the new Meme on chain symbolizing the partnership between X (Elon) and Telegram (Pavel) it has unique mechanics like 3% tax on buys and sells wich is equally airdropped to holders. As Ton season starts the New Ceo is Intrested in Memes and showing commitment. He’s interacting with community and showing attention to requests.
+
+Ca:
+
+EQCuL6Wsat0pVnKKTUYrCUZ2-AqAvpQAMYeF-OC\_oCN6A5IX
+
+ 
+
+*   [Home](/)
+*   [Categories](/categories)
+*   [Guidelines](/guidelines)
+
+Powered by [Discourse](https://www.discourse.org), best viewed with JavaScript enabled
+
+
+
 ## Topic: 416
 
 [TON Research](/)
@@ -22798,6 +22826,4 @@ Powered by [Discourse](https://www.discourse.org), best viewed with JavaScript e
 [IvanKriptov](https://tonresear.ch/u/IvanKriptov)  February 21, 2024, 8:56pm  1
 
 # [](#adnl-intro-1)ADNL Intro
-
-При создании Web3/блокчейн приложений возникает задача получения данных из блокчейна, например посмотреть последние транзакции аккаунта или дернуть в Гет метод контракта.
 
