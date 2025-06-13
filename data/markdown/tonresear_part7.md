@@ -1,3 +1,38 @@
+Для запросов в TON нам понадобиться `typescript` и модулями для работы с TON.
+Для работы с Typescript нам понадобятся:
+- Node.js — среда, в которой вы будете запускать компилятор TypeScript.
+- Компилятор TypeScript — модуль Node.js, который компилирует TypeScript в JavaScript.
+
+```
+
+This file has been truncated. [show original](https://github.com/romanovichim/TonFunClessons_ru/blob/main/lessons/requests/20lesson/tonjs.md)
+
+  1 Like
+
+*   [Home](/)
+*   [Categories](/categories)
+*   [Guidelines](/guidelines)
+
+Powered by [Discourse](https://www.discourse.org), best viewed with JavaScript enabled
+
+
+
+## Topic: 473
+
+[TON Research](/)
+
+# [Get-запросы в TON - Урок 2 ADNL Intro](/t/get-ton-2-adnl-intro/473)
+
+[Русский](/c/ru/general/50)  [General](/c/ru/general/50) 
+
+[learn](https://tonresear.ch/tag/learn)
+
+    
+
+[IvanKriptov](https://tonresear.ch/u/IvanKriptov)  February 21, 2024, 8:56pm  1
+
+# [](#adnl-intro-1)ADNL Intro
+
 При создании Web3/блокчейн приложений возникает задача получения данных из блокчейна, например посмотреть последние транзакции аккаунта или дернуть в Гет метод контракта.
 
 Для этой задачи можно пользоваться сервисами посредниками, которые либо индексируют блокчейн и отдают вам агрегированную информацию, либо представляют собой прокси сервис прокидывающий ваши запросы через себя. Но использование посредника может нести риски, ошибки или намеренное искажение фактов, может привести к фроду.

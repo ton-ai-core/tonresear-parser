@@ -908,6 +908,38 @@ Powered by [Discourse](https://www.discourse.org), best viewed with JavaScript e
 
 
 
+## Topic: 41690
+
+[TON Research](/)
+
+# [Forward ton amount 0](/t/forward-ton-amount-0/41690)
+
+[TON Blockchain](/c/ton-blockchain/17) 
+
+    
+
+[anomaly](https://tonresear.ch/u/anomaly)  June 12, 2025, 2:19pm  1
+
+Hi,  
+I made a withdrawal from Weex Exchange to LBank (USDT on TON), but I haven’t received it.  
+I contacted LBank customer support, and they said the transaction couldn’t be processed because the forwarded TON amount is 0.  
+After contacting both exchanges multiple times, they advised me to contact TON, as the funds are on the TON blockchain.  
+What should I do?  
+as it’s been a long time, and I’ve gotten no result from either exchange.  
+thanks  
+Transaction ID:  
+d79118f3ba18c8679a9a648eb27d010938043d8a2d89cb8bea4975733d97301d
+
+ 
+
+*   [Home](/)
+*   [Categories](/categories)
+*   [Guidelines](/guidelines)
+
+Powered by [Discourse](https://www.discourse.org), best viewed with JavaScript enabled
+
+
+
 ## Topic: 418
 
 [TON Research](/)
@@ -22791,39 +22823,4 @@ Web 3 приложения часто строятся вокруг станда
 и все это на JS.
 
 ### Устанавливаем библиотеки
-
-Для запросов в TON нам понадобиться `typescript` и модулями для работы с TON.
-Для работы с Typescript нам понадобятся:
-- Node.js — среда, в которой вы будете запускать компилятор TypeScript.
-- Компилятор TypeScript — модуль Node.js, который компилирует TypeScript в JavaScript.
-
-```
-
-This file has been truncated. [show original](https://github.com/romanovichim/TonFunClessons_ru/blob/main/lessons/requests/20lesson/tonjs.md)
-
-  1 Like
-
-*   [Home](/)
-*   [Categories](/categories)
-*   [Guidelines](/guidelines)
-
-Powered by [Discourse](https://www.discourse.org), best viewed with JavaScript enabled
-
-
-
-## Topic: 473
-
-[TON Research](/)
-
-# [Get-запросы в TON - Урок 2 ADNL Intro](/t/get-ton-2-adnl-intro/473)
-
-[Русский](/c/ru/general/50)  [General](/c/ru/general/50) 
-
-[learn](https://tonresear.ch/tag/learn)
-
-    
-
-[IvanKriptov](https://tonresear.ch/u/IvanKriptov)  February 21, 2024, 8:56pm  1
-
-# [](#adnl-intro-1)ADNL Intro
 
