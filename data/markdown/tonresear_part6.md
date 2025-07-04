@@ -1099,6 +1099,67 @@ Powered by [Discourse](https://www.discourse.org), best viewed with JavaScript e
 
 
 
+## Topic: 41808
+
+[TON Research](/)
+
+# [Обращение к TON Foundation: О Признании Вклада и Справедливом Вознаграждении](/t/ton-foundation/41808)
+
+[General](/c/general/4) 
+
+    
+
+[User2333](https://tonresear.ch/u/User2333)  July 3, 2025, 10:34am  1
+
+![:pushpin:](https://tonresear.ch/images/emoji/twitter/pushpin.png?v=12 ":pushpin:") Обращение к TON Foundation: О Признании Вклада и Справедливом Вознаграждении  
+Кому: TON Foundation (или соответствующему отделу/лицу, ответственному за распределение дропов и взаимодействие с сообществом)  
+От кого: @MerlinX33 и сообщество  
+Тема: Верифицированный вклад в экосистему TON и запрос на справедливое вознаграждение  
+Уважаемые представители TON Foundation,  
+Обращаюсь к вам не как проситель, а как ветеран и активный строитель экосистемы TON, чьи усилия на протяжении многих лет способствовали её органическому росту и укреплению сообщества. Мой вклад в развитие Telegram и TON является верифицируемым и, убеждён, неоспоримым. Я также выступаю от лица многих других активных участников сообщества, чьи ожидания не были оправданы.  
+Моя история взаимодействия с экосистемой TON началась в 2017 году, когда я одним из первых осознал потенциал Telegram и блокчейна, активно участвуя в майнинге Gram Token. С тех пор моя вера в проект и его развитие оставалась непоколебимой.  
+Кульминацией моего активного участия стало масштабное вовлечение в Open League, курируемую непосредственно TON Foundation. В рамках этой инициативы я:  
+• Проявил максимальную активность, запуская и тестируя порядка 500 ботов в Telegram, что способствовало не только тестированию инфраструктуры, но и значительному расширению пользовательской базы.  
+• Активно участвовал в чатах, создавая так называемый “эффект бабочки”: моя активность, подкреплённая статусом участника Open League (с использованием соответствующих эмодзи), стимулировала вовлечение многих новых пользователей, которые, видя пример “знающего человека”, начинали взаимодействовать с проектами TON. Это был неоценимый вклад в виральный маркетинг и органический рост сообщества, который невозможно переоценить.  
+• Получал наградные SBT (SoulBound Tokens) за свою активность, которые, согласно распространённым в сообществе слухам и логике поощрений, должны были служить основанием для получения дропа.  
+Все упомянутые награды и доказательства моей активности находятся непосредственно на моём Telegram-аккаунте и в кошельке TON, что делает их легко проверяемыми и верифицируемыми вами.  
+К сожалению, несмотря на столь значительный и подтверждённый вклад, ожидаемого дропа я так и не получил. Это вызывает не только разочарование, но и ставит под вопрос справедливость и прозрачность механизмов поощрения в экосистеме, которая декларирует принципы децентрализации и вознаграждения сообщества. Многие другие активные участники Open League и экосистемы TON также столкнулись с подобной ситуацией, что подрывает общее доверие к проекту.  
+Более того, моя преданность экосистеме TON имела свою цену: развитие Telegram и участие в ваших инициативах привело к потере моей основной работы, что вынуждает меня в данный момент искать новые источники дохода, отвлекаясь от дальнейшего развития и поддержки проекта.
+
+Я убеждён, что игнорирование вклада таких преданных и активных участников, как я, и многих других, вредит долгосрочной репутации TON Foundation и подрывает доверие сообщества. Я не прошу подачки, я требую справедливого вознаграждения за верифицированный и неоценимый вклад, который был сделан мной и другими участниками в развитие вашей экосистемы.  
+Прошу вас провести внутреннее расследование и пересмотреть моё положение, а также положение других активных участников, обеспечив справедливое распределение дропа, который нам, безусловно, положен.  
+Готов предоставить любые дополнительные данные и ответить на ваши вопросы.  
+С уважением и надеждой на справедливость,  
+@MerlinX33
+
+  1 Like
+
+[XQCV\_QWERTA](https://tonresear.ch/u/XQCV_QWERTA) July 3, 2025, 10:56am  2
+
+Ну ты скажи мне, ты дурак?
+
+Всё они раздадут и сбт хантерам (психбольным) и активным юзерам и всем своим друзьям (так называемые “билдеры”).
+
+Хочешь спросить когда раздадут? И на этот вопрос - существует совершенно простой ответ - осенью. Да, обещали в прошлом году, но тогда тон стоил дорого. А дорого - значит юзеры - заработают, а тону, фундаменту и ДурДурову это не нужно.
+
+Так когда же “раздадут”? спросишь ты. А я отвечу тебе.
+
+Через 3 months, 10 days and 13 hours. А точнее 14.10.2025 03:00 по Московскому времени - будет разлок 1,317,379,090.13 TON, что по курсу в TON’а в 3$ будет равняться приблизительно 4 миллиардам долларам.
+
+Когда всю эту хуйню сольют в стакан, чтобы считать было удобно по 1$ ( или быть точне по 0.1$) , тогда тебе, мне и нам всем обитателям тона раздадут наши величественные 0.01 тон за сбт, что в сумме выйдет около 1-10$ за одну тысячу SBT.
+
+За добытую информацию и проделанные расчёты можете передать ваши спасибо на данный кошелёк: UQBFI\_YXv3jBKDktwaW7SQjT8PoJV56upVn-ngkQ6ct49YqW
+
+ 
+
+*   [Home](/)
+*   [Categories](/categories)
+*   [Guidelines](/guidelines)
+
+Powered by [Discourse](https://www.discourse.org), best viewed with JavaScript enabled
+
+
+
 ## Topic: 42
 
 [TON Research](/)
@@ -22641,186 +22702,4 @@ Web 3 приложения часто строятся вокруг станда
 ```
 	npm install  ts-node
 ```
-
-Осталось установить модули для работы c TON:
-
-```
-	npm install ton ton-core ton-crypto
-```
-
-Отлично, теперь можно приступать к скриптам.
-
-## [](#h-4)Достаем информацию о Коллекции
-
-Чтобы получить информацию об NFT коллекции нам нужно вызвать GET-метод смарт-контракта коллекции, для этого надо:
-
-*   использовать некий API сервис, который взаимодействует с Лайт серверами блокчейна TON
-*   через этот клиент вызвать нужный GET-метод
-*   преобразовать полученные данные в читаемый вид
-
-В данном туториале мы воспользуемся [toncenter API](https://github.com/toncenter/ton-http-api), для запроса воспользуемся клиентом на js, библиотеки [ton.js](https://www.npmjs.com/package/ton).
-
-Создадим скрипт `collection.ts`. Импортируем из библиотеки клиент:
-
-```
-import { TonClient } from 'ton';
-```
-
-И подключаемся к toncenter:
-
-```
-import { TonClient } from 'ton';
-
-export const toncenter = new TonClient({
-	endpoint: 'https://toncenter.com/api/v2/jsonRPC',
-});
-```
-
-> Для простоты примера мы не используем API ключ, поэтому мы будем лимитированы одним запросом в минуту, для создания ключа можете воспользоваться ботом [Telegram: Contact @tonapibot](https://t.me/tonapibot)
-
-Теперь посмотрим в [стандарт NFT коллекций на TON](https://github.com/ton-blockchain/TEPs/blob/master/text/0062-nft-standard.md) для того, чтобы понять какой GET-метод нужно вызвать. По стандарту видно, что нам нужна функция `get_collection_data()`, которая вернет нам:
-
-*   `next_item_index` — количество развернутых в данный момент элементов NFT в коллекции.
-*   `collection_content` — содержимое коллекции в формате, соответствующем стандарту [TEP-64](https://github.com/ton-blockchain/TEPs/blob/master/text/0064-token-data-standard.md).
-*   `owner_address` - адрес владельца коллекции, нулевой адрес, если нет владельца.
-
-Воспользуемся синтаксическим сахаром `async/await` и вызовем данный метод для какой-нибудь коллекции в TON:
-
-```
-import { TonClient } from 'ton';
-
-export const toncenter = new TonClient({
-	endpoint: 'https://toncenter.com/api/v2/jsonRPC',
-});
-
-export const nftCollectionAddress = Address.parse('UQApA79Qt8VEOeTfHu9yKRPdJ_dADvspqh5BqV87PgWD998f');
-
-(async () => {
-	let { stack } = await toncenter.callGetMethod(
-		nftCollectionAddress, 
-		'get_collection_data'
-	);
-
-})().catch(e => console.error(e));
-```
-
-Для преобразования данных в читаемый вид, воспользуемся библиотекой `ton-core`:
-
-```
-import { Address } from 'ton-core';
-```
-
-Преобразуем nextItemIndex в строку, вычитаем ячейку с контентом и преобразуем адрес:
-
-```
-import { TonClient } from 'ton';
-import { Address } from 'ton-core';
-
-export const toncenter = new TonClient({
-	endpoint: 'https://toncenter.com/api/v2/jsonRPC',
-});
-
-export const nftCollectionAddress = Address.parse('UQApA79Qt8VEOeTfHu9yKRPdJ_dADvspqh5BqV87PgWD998f');
-
-(async () => {
-	let { stack } = await toncenter.callGetMethod(
-		nftCollectionAddress, 
-		'get_collection_data'
-	);
-	let nextItemIndex = stack.readBigNumber();
-	let contentRoot = stack.readCell();
-	let owner = stack.readAddress();
-
-	console.log('nextItemIndex', nextItemIndex.toString());
-	console.log('contentRoot', contentRoot);
-	console.log('owner', owner);
-})().catch(e => console.error(e));
-```
-
-Запустим скрипт с помощью `ts-node`. Должно получиться следующее:
-
-## [](#h-5)Достаем адрес элемента Коллекции по индексу
-
-Теперь решим задачу по получению адреса по индексу, мы опять будем вызывать GET-метод смарт-контракта коллекции. В соответствии со стандартом, для этой задачи подходит метод `get_nft_address_by_index(int index)`, который возвращает `slice address`.
-
-Данный метод принимает параметр `int index` и на первый взгляд выглядит так, как будто нужно просто передать значение с типом `int` в смарт-контракт. Это конечно так, но так как виртуальная машина TON использует регистры то значение с типом `int` нужно будет передать в кортеже. Для этого в библиотеке `ton.js` есть `TupleBuilder` .
-
-```
-import { TupleBuilder } from 'ton';
-```
-
-Запишем в кортеж значение 0:
-
-```
-import { TonClient } from 'ton';
-import { Address } from 'ton-core';
-import { TupleBuilder } from 'ton';
-
-export const toncenter = new TonClient({
-	endpoint: 'https://toncenter.com/api/v2/jsonRPC',
-});
-
-export const nftCollectionAddress = Address.parse('EQDvRFMYLdxmvY3Tk-cfWMLqDnXF_EclO2Fp4wwj33WhlNFT');
-
-(async () => {
-	let args = new TupleBuilder();
-	args.writeNumber(0);
-
-
-})().catch(e => console.error(e));
-```
-
-Остается сделать запрос и преобразовать адрес с помощью `readAddress()`:
-
-```
-import { TonClient } from 'ton';
-import { Address } from 'ton-core';
-import { TupleBuilder } from 'ton';
-
-export const toncenter = new TonClient({
-	endpoint: 'https://toncenter.com/api/v2/jsonRPC',
-});
-
-export const nftCollectionAddress = Address.parse('EQDvRFMYLdxmvY3Tk-cfWMLqDnXF_EclO2Fp4wwj33WhlNFT');
-
-(async () => {
-	let args = new TupleBuilder();
-	args.writeNumber(0);
-
-	let { stack } = await toncenter.callGetMethod(
-		nftCollectionAddress, 
-		'get_nft_address_by_index',
-		args.build(),
-	);
-	let nftAddress = stack.readAddress();
-
-	console.log('nftAddress', nftAddress.toString());
-})().catch(e => console.error(e));
-```
-
-Запустим скрипт с помощью `ts-node`. Должно получиться следующее:
-
-## [](#h-6)Заключение
-
-Подобные разборы и туториалы я публикую в телеграм канале [Telegram: Contact @ton\_learn](https://t.me/ton_learn) буду рад вашей подписке.
-
-[github.com](https://github.com/romanovichim/TonFunClessons_ru/blob/main/lessons/requests/20lesson/tonjs.md)
-
-#### [romanovichim/TonFunClessons\_ru/blob/main/lessons/requests/20lesson/tonjs.md](https://github.com/romanovichim/TonFunClessons_ru/blob/main/lessons/requests/20lesson/tonjs.md)
-
-```
-# Запросы в TON с помощью JS: достаем данные NFT
-
-Часто Web3 приложения или Dapps выглядят архитектурно выглядят как Фронтенд, который вызывает методы смарт-контрактов. Соответственно нужно уметь делать запросы на JS в блокчейн. В TON мало примеров на JS, поэтому я решил сделать небольшой наглядный туториал.
-
-## Вступление
-
-Web 3 приложения часто строятся вокруг стандартов, существующих в блокчейне, в TON это NFT и Jetton. Для стандарта NFT распространенной задачей является получение адресов NFT конкретной коллекции. Поэтому в данном туториале:
-
- - мы достаем данные об NFT коллекции
- - получим адрес NFT по индексу
- 
-и все это на JS.
-
-### Устанавливаем библиотеки
 
